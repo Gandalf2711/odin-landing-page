@@ -22,8 +22,8 @@ body {
 .footer {
     background-color: #1F2937;
     color: white;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .content {
@@ -46,6 +46,13 @@ h2 {
     padding: 0;
 }
 
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
 p {
     color: #E5E7EB;
     font-size: 18px;
@@ -61,7 +68,7 @@ ul {
     font-size: 18px;
 }
 
-button {
+.signup{
     color: white;
     font-weight: bold;
     background-color: #0366fc;
@@ -69,6 +76,16 @@ button {
     border: none;
     border-radius: 12px;
     width: 100px;
+}
+
+.info {
+    margin: 0;
+    padding: 0;
+    width: 156px;
+    height: 106px;
+    border-color: #0366fc;
+    border-radius: 15px;
+    border-width: medium;
 }
 
 img {
@@ -85,9 +102,32 @@ a:hover {
 }
 
 .body {
-    color: #1F2937;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 150px;
+    text-align: center
 }
 
 .quote {
     background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.name {
+    font-style:normal;
+    text-align: end;
+    font-weight: bold;
+    padding: 20px;
 }
